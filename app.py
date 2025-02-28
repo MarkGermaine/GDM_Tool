@@ -34,7 +34,7 @@ hx_gdm_numeric = 1 if hx_gdm == 'YES' else 0 if hx_gdm == 'NO' else None
 fh_diabetes = st.selectbox('Family History of Diabetes', ['Select', 'YES', 'NO'])
 ethnic_origin = st.selectbox('Ethnic Origin of Patient', ['Select','CAUCASIAN', 'SOUTH EAST ASIAN', 'OTHER', 'BLACK', 'ASIAN', 'MIDDLE EASTERN'])
 
-with st.expander("What does each ethnicity represent?"):
+    with st.expander("What does each ethnicity represent?"):
     st.markdown("""
     - **Caucasian**: All white Europeans and Northern Americans
     - **Black**: All Africans and Afro-Caribbean
