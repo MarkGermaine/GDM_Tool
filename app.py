@@ -29,7 +29,7 @@ def upload_to_s3(data, file_name):
     st.write(f'File {file_name} uploaded to S3 successfully')
 
 # Add Coombe Logo at the Top
-st.image('coombe2.jpeg', use_column_width=True)  # Adjust the logo size based on the image dimensions
+st.image('coombe2.jpeg', use_container_width=True)  # Adjust the logo size based on the image dimensions
 
 st.markdown("### Gestational Diabetes Prediction Tool")
 
@@ -173,4 +173,4 @@ else:
     st.warning("Please fill out all the required fields before making a prediction.")
 
 # Add CRT Machine Learning Banner at the Bottom
-st.image('CRT Machine Learning Lock Up Banner 10-07-20.jpeg', use_column_width=True)
+st.image('CRT Machine Learning Lock Up Banner 10-07-20.jpeg', use_container_width=True)
